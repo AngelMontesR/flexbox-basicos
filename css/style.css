@@ -130,3 +130,16 @@ h1, h2 {
     justify-content: flex-start;
     align-items: flex-end;
 }
+
+/* 8. Flexbox */
+
+/* basis: tamaño de la caja - se ajusta y es tamaño inicial */
+/* width: tamaño de la caja - da el tamaño aunque se salga el contenido de la caja */
+
+.d-flex-8 {
+    display: flex;
+}
+
+.d-flex-8 .box {
+    flex-basis: 33.3%;
+}
