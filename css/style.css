@@ -79,3 +79,10 @@ h1, h2 {
 .d-flex-2 {
     display: flex;
 }
+
+/* 3. Flexbox - Content  */	
+
+.d-flex-3 {
+    display: flex;
+    justify-content: center;
+}
