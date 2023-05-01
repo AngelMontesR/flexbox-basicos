@@ -113,3 +113,20 @@ h1, h2 {
     height: 800px;
     align-items: flex-start;
 }
+
+/* 7. Flexbox */
+/* row */
+/* justify-content Se alinea vertical */
+/* align-items Se alinea horizontal */ 
+
+/* column */
+/* justify-content Se alinea horizontal */
+/* align-items Se alinea vertical */
+
+.d-flex-7 {
+    display: flex;
+    height: 800px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
