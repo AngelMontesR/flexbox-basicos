@@ -73,3 +73,9 @@ h1, h2 {
 .d-flex {
     display: flex;
 }
+
+/* 2. Flexbox: Dirección */
+
+.d-flex-2 {
+    display: flex;
+}
