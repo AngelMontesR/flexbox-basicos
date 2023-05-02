@@ -208,3 +208,17 @@ h1, h2 {
 .d-flex-12 .box:nth-child(3) {
     flex-shrink: 2; /* 0: no se encoge, 1: se encoge */
 }
+
+/* 13. Flexbox */
+
+.d-flex-13 {
+    display: flex;
+}
+
+.d-flex-13 .box {
+    flex-basis: 33.3%;
+    flex-grow: 1; /* 0: no crece, 1: crece */
+    flex-shrink: 1; /* 0: no se encoge, 1: se encoge */
+
+    flex: 1 1 300px; /* flex-grow, flex-shrink, flex-basis */
+}
