@@ -163,3 +163,14 @@ h1, h2 {
 .d-flex-9 .box:nth-child(3) {
     flex-basis: calc(25% - 1rem);
 }
+
+/* 10. Flexbox */
+
+.d-flex-10 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d-flex-10 .box {
+    flex-basis: 50%;
+}
